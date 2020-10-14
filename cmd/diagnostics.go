@@ -70,7 +70,7 @@ func diagnosticsCmdRun(cmd *cobra.Command, args []string) {
 		{
 			Name: "ReviewBeforeUpload",
 			Prompt: &survey.Confirm{
-				Message: "Do you want to review the collected data before uploading to hastebin.com?",
+				Message: "Do you want to review the collected data before uploading to ptero.co?",
 				Help:    "The data, especially the logs, might contain sensitive information, so you should review it. You will be asked again if you want to upload.",
 				Default: true,
 			},
